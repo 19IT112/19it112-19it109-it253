@@ -36,7 +36,7 @@ public class Shuffle_Game extends JPanel { // our grid will be drawn in a dedica
   // Grid UI Size
   private int gridSize;
   private boolean gameOver;
-   public static int n;// true if game over, false otherwise
+   public static int n;
   
   public Shuffle_Game(int size, int dim, int mar) {
     this.size = size;
