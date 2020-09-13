@@ -142,7 +142,7 @@ public class Shuffle_Game extends JPanel { // our grid will be drawn in a dedica
     	frame.setResizable(false);
     	String box = (String) JOptionPane.showInputDialog(null,"Please Enter value");
     	n = Integer.parseInt(box);
-    	frame.add(new Shuffle_Game(5, 600, 20), BorderLayout.CENTER);
+    	frame.add(new Shuffle_Game(n, 600, 20), BorderLayout.CENTER);
     	frame.pack();
     	// center on the screen
     	frame.setLocationRelativeTo(null);
