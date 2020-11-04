@@ -140,43 +140,6 @@ public class Shuffle_Game extends JPanel { // our grid will be drawn in a dedica
 		newGame();
 	}
 
-//	public static void TimerTime()
-//    {
-//        timeLabel = new JLabel( new Date() {
-//		}.toString() );
-//        //p.add( timeLabel );
-// 
-//        Timer timer = new Timer(1000,new ActionListener() {
-//			
-//			@Override
-//			public void actionPerformed(ActionEvent arg0) {
-//				// TODO Auto-generated method stub
-//				int hr=0;
-//				int min=0;
-//				int sec=0;
-//				if(sec==60) {
-//					sec=0;
-//					min++;
-//				}else if(min == 60) {
-//					sec=0;
-//					min=0;
-//					hr++;
-//				}
-//				timeLabel.setText("hr: "+hr + "min: "+ min + "sec: "+ sec);
-//				p.add(timeLabel);
-//			}
-//		});
-//        timer.setInitialDelay(1);
-//        timer.start();
-//    }
-
-	// @Override
-//    public void actionPerformed(ActionEvent e)
-//    {
-//        //System.out.println(e.getSource());
-//        timeLabel.setText( new Date().toString() );
-//    }
-
 	private void newGame() {
 		do {
 
